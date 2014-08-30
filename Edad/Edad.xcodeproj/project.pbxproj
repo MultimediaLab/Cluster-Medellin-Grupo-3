@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADAC06AF199D75A00031A20E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC06AE199D75A00031A20E /* Foundation.framework */; };
+		ADAC06B1199D75A00031A20E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC06B0199D75A00031A20E /* CoreGraphics.framework */; };
+		ADAC06B3199D75A00031A20E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC06B2199D75A00031A20E /* UIKit.framework */; };
+		ADAC06B9199D75A00031A20E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADAC06B7199D75A00031A20E /* InfoPlist.strings */; };
+		ADAC06BB199D75A00031A20E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAC06BA199D75A00031A20E /* main.m */; };
+		ADAC06BF199D75A00031A20E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAC06BE199D75A00031A20E /* AppDelegate.m */; };
+		ADAC06C2199D75A00031A20E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAC06C0199D75A00031A20E /* Main.storyboard */; };
+		ADAC06C5199D75A00031A20E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAC06C4199D75A00031A20E /* ViewController.m */; };
+		ADAC06C7199D75A00031A20E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAC06C6199D75A00031A20E /* Images.xcassets */; };
+		ADAC06CE199D75A00031A20E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC06CD199D75A00031A20E /* XCTest.framework */; };
+		ADAC06CF199D75A00031A20E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC06AE199D75A00031A20E /* Foundation.framework */; };
+		ADAC06D0199D75A00031A20E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC06B2199D75A00031A20E /* UIKit.framework */; };
+		ADAC06D8199D75A10031A20E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADAC06D6199D75A10031A20E /* InfoPlist.strings */; };
+		ADAC06DA199D75A10031A20E /* EdadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAC06D9199D75A10031A20E /* EdadTests.m */; };
+		ADAC06E5199D76C40031A20E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAC06E4199D76C40031A20E /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAC06D1199D75A00031A20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAC06A3199D75A00031A20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAC06AA199D75A00031A20E;
+			remoteInfo = Edad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADAC06AB199D75A00031A20E /* Edad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAC06AE199D75A00031A20E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADAC06B0199D75A00031A20E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADAC06B2199D75A00031A20E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADAC06B6199D75A00031A20E /* Edad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Edad-Info.plist"; sourceTree = "<group>"; };
+		ADAC06B8199D75A00031A20E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADAC06BA199D75A00031A20E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADAC06BC199D75A00031A20E /* Edad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Edad-Prefix.pch"; sourceTree = "<group>"; };
+		ADAC06BD199D75A00031A20E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADAC06BE199D75A00031A20E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADAC06C1199D75A00031A20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADAC06C3199D75A00031A20E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADAC06C4199D75A00031A20E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADAC06C6199D75A00031A20E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADAC06CC199D75A00031A20E /* EdadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAC06CD199D75A00031A20E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADAC06D5199D75A10031A20E /* EdadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EdadTests-Info.plist"; sourceTree = "<group>"; };
+		ADAC06D7199D75A10031A20E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADAC06D9199D75A10031A20E /* EdadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdadTests.m; sourceTree = "<group>"; };
+		ADAC06E3199D76C40031A20E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		ADAC06E4199D76C40031A20E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAC06A8199D75A00031A20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAC06B1199D75A00031A20E /* CoreGraphics.framework in Frameworks */,
+				ADAC06B3199D75A00031A20E /* UIKit.framework in Frameworks */,
+				ADAC06AF199D75A00031A20E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAC06C9199D75A00031A20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAC06CE199D75A00031A20E /* XCTest.framework in Frameworks */,
+				ADAC06D0199D75A00031A20E /* UIKit.framework in Frameworks */,
+				ADAC06CF199D75A00031A20E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADAC06A2199D75A00031A20E = {
+			isa = PBXGroup;
+			children = (
+				ADAC06E3199D76C40031A20E /* Person.h */,
+				ADAC06E4199D76C40031A20E /* Person.m */,
+				ADAC06B4199D75A00031A20E /* Edad */,
+				ADAC06D3199D75A00031A20E /* EdadTests */,
+				ADAC06AD199D75A00031A20E /* Frameworks */,
+				ADAC06AC199D75A00031A20E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAC06AC199D75A00031A20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC06AB199D75A00031A20E /* Edad.app */,
+				ADAC06CC199D75A00031A20E /* EdadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAC06AD199D75A00031A20E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC06AE199D75A00031A20E /* Foundation.framework */,
+				ADAC06B0199D75A00031A20E /* CoreGraphics.framework */,
+				ADAC06B2199D75A00031A20E /* UIKit.framework */,
+				ADAC06CD199D75A00031A20E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADAC06B4199D75A00031A20E /* Edad */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC06BD199D75A00031A20E /* AppDelegate.h */,
+				ADAC06BE199D75A00031A20E /* AppDelegate.m */,
+				ADAC06C0199D75A00031A20E /* Main.storyboard */,
+				ADAC06C3199D75A00031A20E /* ViewController.h */,
+				ADAC06C4199D75A00031A20E /* ViewController.m */,
+				ADAC06C6199D75A00031A20E /* Images.xcassets */,
+				ADAC06B5199D75A00031A20E /* Supporting Files */,
+			);
+			path = Edad;
+			sourceTree = "<group>";
+		};
+		ADAC06B5199D75A00031A20E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC06B6199D75A00031A20E /* Edad-Info.plist */,
+				ADAC06B7199D75A00031A20E /* InfoPlist.strings */,
+				ADAC06BA199D75A00031A20E /* main.m */,
+				ADAC06BC199D75A00031A20E /* Edad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADAC06D3199D75A00031A20E /* EdadTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC06D9199D75A10031A20E /* EdadTests.m */,
+				ADAC06D4199D75A10031A20E /* Supporting Files */,
+			);
+			path = EdadTests;
+			sourceTree = "<group>";
+		};
+		ADAC06D4199D75A10031A20E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC06D5199D75A10031A20E /* EdadTests-Info.plist */,
+				ADAC06D6199D75A10031A20E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAC06AA199D75A00031A20E /* Edad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAC06DD199D75A10031A20E /* Build configuration list for PBXNativeTarget "Edad" */;
+			buildPhases = (
+				ADAC06A7199D75A00031A20E /* Sources */,
+				ADAC06A8199D75A00031A20E /* Frameworks */,
+				ADAC06A9199D75A00031A20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Edad;
+			productName = Edad;
+			productReference = ADAC06AB199D75A00031A20E /* Edad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAC06CB199D75A00031A20E /* EdadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAC06E0199D75A10031A20E /* Build configuration list for PBXNativeTarget "EdadTests" */;
+			buildPhases = (
+				ADAC06C8199D75A00031A20E /* Sources */,
+				ADAC06C9199D75A00031A20E /* Frameworks */,
+				ADAC06CA199D75A00031A20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAC06D2199D75A00031A20E /* PBXTargetDependency */,
+			);
+			name = EdadTests;
+			productName = EdadTests;
+			productReference = ADAC06CC199D75A00031A20E /* EdadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAC06A3199D75A00031A20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Giovanny Suarez";
+				TargetAttributes = {
+					ADAC06CB199D75A00031A20E = {
+						TestTargetID = ADAC06AA199D75A00031A20E;
+					};
+				};
+			};
+			buildConfigurationList = ADAC06A6199D75A00031A20E /* Build configuration list for PBXProject "Edad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAC06A2199D75A00031A20E;
+			productRefGroup = ADAC06AC199D75A00031A20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAC06AA199D75A00031A20E /* Edad */,
+				ADAC06CB199D75A00031A20E /* EdadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAC06A9199D75A00031A20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAC06C7199D75A00031A20E /* Images.xcassets in Resources */,
+				ADAC06B9199D75A00031A20E /* InfoPlist.strings in Resources */,
+				ADAC06C2199D75A00031A20E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAC06CA199D75A00031A20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAC06D8199D75A10031A20E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAC06A7199D75A00031A20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAC06C5199D75A00031A20E /* ViewController.m in Sources */,
+				ADAC06BF199D75A00031A20E /* AppDelegate.m in Sources */,
+				ADAC06E5199D76C40031A20E /* Person.m in Sources */,
+				ADAC06BB199D75A00031A20E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAC06C8199D75A00031A20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAC06DA199D75A10031A20E /* EdadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAC06D2199D75A00031A20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAC06AA199D75A00031A20E /* Edad */;
+			targetProxy = ADAC06D1199D75A00031A20E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAC06B7199D75A00031A20E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAC06B8199D75A00031A20E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADAC06C0199D75A00031A20E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAC06C1199D75A00031A20E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADAC06D6199D75A10031A20E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAC06D7199D75A10031A20E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAC06DB199D75A10031A20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADAC06DC199D75A10031A20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAC06DE199D75A10031A20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Edad/Edad-Prefix.pch";
+				INFOPLIST_FILE = "Edad/Edad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADAC06DF199D75A10031A20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Edad/Edad-Prefix.pch";
+				INFOPLIST_FILE = "Edad/Edad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADAC06E1199D75A10031A20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Edad.app/Edad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Edad/Edad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EdadTests/EdadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADAC06E2199D75A10031A20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Edad.app/Edad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Edad/Edad-Prefix.pch";
+				INFOPLIST_FILE = "EdadTests/EdadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAC06A6199D75A00031A20E /* Build configuration list for PBXProject "Edad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAC06DB199D75A10031A20E /* Debug */,
+				ADAC06DC199D75A10031A20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAC06DD199D75A10031A20E /* Build configuration list for PBXNativeTarget "Edad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAC06DE199D75A10031A20E /* Debug */,
+				ADAC06DF199D75A10031A20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADAC06E0199D75A10031A20E /* Build configuration list for PBXNativeTarget "EdadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAC06E1199D75A10031A20E /* Debug */,
+				ADAC06E2199D75A10031A20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAC06A3199D75A00031A20E /* Project object */;
+}
