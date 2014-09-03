@@ -119,17 +119,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Menu Principal" id="8cR-5X-9eZ">
-                        <barButtonItem key="rightBarButtonItem" title="Salir" style="plain" id="0Wx-Ab-dvc"/>
+                        <barButtonItem key="rightBarButtonItem" title="Salir" id="0Wx-Ab-dvc"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uet-KS-1wT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1256" y="26"/>
         </scene>
-        <!--View Controller - Adicionar-->
+        <!--Adicionar View Controller - Adicionar-->
         <scene sceneID="bl7-kh-XS5">
             <objects>
-                <viewController id="wgQ-Qg-RyB" sceneMemberID="viewController">
+                <viewController id="wgQ-Qg-RyB" customClass="AdicionarViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5dq-Sx-hno"/>
                         <viewControllerLayoutGuide type="bottom" id="j3N-bB-w1n"/>
@@ -145,19 +145,19 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="133-nT-cCr">
-                                <rect key="frame" x="47" y="152" width="227" height="30"/>
+                                <rect key="frame" x="47" y="192" width="227" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Edad" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dgt-Hz-2uc">
-                                <rect key="frame" x="47" y="190" width="227" height="30"/>
+                                <rect key="frame" x="47" y="230" width="227" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Direccion" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SqU-CB-skW">
-                                <rect key="frame" x="47" y="228" width="227" height="30"/>
+                                <rect key="frame" x="47" y="268" width="227" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -168,21 +168,38 @@
                                 <state key="normal" title="Guardar">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveData:" destination="wgQ-Qg-RyB" eventType="touchUpInside" id="PuT-l3-2Zh"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mensaje" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvr-ow-pWk">
-                                <rect key="frame" x="128" y="319" width="65" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mensaje" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="222" translatesAutoresizingMaskIntoConstraints="NO" id="Yvr-ow-pWk">
+                                <rect key="frame" x="52" y="319" width="222" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Clave" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUF-tz-ihK">
+                                <rect key="frame" x="47" y="154" width="227" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Adicionar" id="sY6-ui-327"/>
+                    <connections>
+                        <outlet property="empCedulaTxt" destination="uqf-Mf-WeR" id="0sO-1A-OLE"/>
+                        <outlet property="empClaveTxt" destination="SUF-tz-ihK" id="Yjp-sS-cOx"/>
+                        <outlet property="empDireccionTxt" destination="SqU-CB-skW" id="A3X-RV-PqL"/>
+                        <outlet property="empEdadTxt" destination="Dgt-Hz-2uc" id="Upk-LE-lFD"/>
+                        <outlet property="empNombreTxt" destination="133-nT-cCr" id="dzH-el-w0o"/>
+                        <outlet property="statusTxt" destination="Yvr-ow-pWk" id="DOm-Vz-ifR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JgI-wR-ila" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1656" y="27"/>
+            <point key="canvasLocation" x="1744" y="-281"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lp4-sb-3TR">

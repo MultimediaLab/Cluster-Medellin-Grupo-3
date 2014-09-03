@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Vendedores.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	Vendedores * vendedor = [[Vendedores alloc] init];
+    [vendedor createDatabaseforSellers];
+ 
 }
 
 - (void)didReceiveMemoryWarning
