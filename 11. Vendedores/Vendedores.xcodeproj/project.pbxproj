@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80E8CFA19B91FD30057CDE3 /* ConsultarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E8CF919B91FD30057CDE3 /* ConsultarViewController.m */; };
 		F8BAB46A19B67D780040023A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BAB46919B67D780040023A /* Foundation.framework */; };
 		F8BAB46C19B67D780040023A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BAB46B19B67D780040023A /* CoreGraphics.framework */; };
 		F8BAB46E19B67D780040023A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BAB46D19B67D780040023A /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F80E8CF819B91FD30057CDE3 /* ConsultarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultarViewController.h; sourceTree = "<group>"; };
+		F80E8CF919B91FD30057CDE3 /* ConsultarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultarViewController.m; sourceTree = "<group>"; };
 		F8BAB46619B67D780040023A /* Vendedores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vendedores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BAB46919B67D780040023A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8BAB46B19B67D780040023A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +104,8 @@
 		F8BAB45D19B67D780040023A = {
 			isa = PBXGroup;
 			children = (
+				F80E8CF819B91FD30057CDE3 /* ConsultarViewController.h */,
+				F80E8CF919B91FD30057CDE3 /* ConsultarViewController.m */,
 				F8BAB4AC19B685120040023A /* Vendedores.h */,
 				F8BAB4AD19B685120040023A /* Vendedores.m */,
 				F8BAB4A919B684C70040023A /* AdicionarViewController.h */,
@@ -295,6 +300,7 @@
 				F8BAB4AB19B684C70040023A /* AdicionarViewController.m in Sources */,
 				F8BAB47A19B67D790040023A /* AppDelegate.m in Sources */,
 				F8BAB47619B67D790040023A /* main.m in Sources */,
+				F80E8CFA19B91FD30057CDE3 /* ConsultarViewController.m in Sources */,
 				F8BAB4AE19B685120040023A /* Vendedores.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +506,7 @@
 				F8BAB49A19B67D790040023A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8BAB49B19B67D790040023A /* Build configuration list for PBXNativeTarget "VendedoresTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				F8BAB49D19B67D790040023A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
