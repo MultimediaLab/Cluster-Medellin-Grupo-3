@@ -241,6 +241,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Profesor;
 				TargetAttributes = {
+					F8BAB46519B67D780040023A = {
+						DevelopmentTeam = 2A8K5J4XEF;
+					};
 					F8BAB48619B67D790040023A = {
 						TestTargetID = F8BAB46519B67D780040023A;
 					};
@@ -426,9 +429,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vendedores/Vendedores-Prefix.pch";
 				INFOPLIST_FILE = "Vendedores/Vendedores-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,9 +444,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vendedores/Vendedores-Prefix.pch";
 				INFOPLIST_FILE = "Vendedores/Vendedores-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
