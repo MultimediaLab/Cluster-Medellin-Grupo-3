@@ -49,6 +49,7 @@
     [_mapView addOverlay:_linea];
     
 }
+//
 // iOS > 7
 -(MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay{
     MKPolyline * ruta = overlay;
