@@ -484,6 +484,7 @@
 				F8137EF719BB5305007145E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8137EF819BB5305007145E0 /* Build configuration list for PBXNativeTarget "13. Anotaciones & DistanciasTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				F8137EFA19BB5305007145E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
