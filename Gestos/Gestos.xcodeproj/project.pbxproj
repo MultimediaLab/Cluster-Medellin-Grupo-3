@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82EDF5519C257B100F687A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDF5419C257B100F687A8 /* main.m */; };
+		F82EDF5819C257B100F687A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDF5719C257B100F687A8 /* AppDelegate.m */; };
+		F82EDF5B19C257B100F687A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDF5A19C257B100F687A8 /* ViewController.m */; };
+		F82EDF5E19C257B100F687A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82EDF5C19C257B100F687A8 /* Main.storyboard */; };
+		F82EDF6019C257B100F687A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82EDF5F19C257B100F687A8 /* Images.xcassets */; };
+		F82EDF6319C257B100F687A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82EDF6119C257B100F687A8 /* LaunchScreen.xib */; };
+		F82EDF6F19C257B200F687A8 /* GestosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDF6E19C257B200F687A8 /* GestosTests.m */; };
+		F82EDF7C19C257F900F687A8 /* chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F82EDF7819C257F900F687A8 /* chomp.wav */; };
+		F82EDF7D19C257F900F687A8 /* hehehe1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F82EDF7919C257F900F687A8 /* hehehe1.wav */; };
+		F82EDF7E19C257F900F687A8 /* monkey_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F82EDF7A19C257F900F687A8 /* monkey_1.png */; };
+		F82EDF7F19C257F900F687A8 /* object_bananabunch.png in Resources */ = {isa = PBXBuildFile; fileRef = F82EDF7B19C257F900F687A8 /* object_bananabunch.png */; };
+		F82EDF8119C2591800F687A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82EDF8019C2591800F687A8 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F82EDF6919C257B200F687A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82EDF4719C257B100F687A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82EDF4E19C257B100F687A8;
+			remoteInfo = Gestos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F82EDF4F19C257B100F687A8 /* Gestos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82EDF5319C257B100F687A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82EDF5419C257B100F687A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F82EDF5619C257B100F687A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F82EDF5719C257B100F687A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F82EDF5919C257B100F687A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F82EDF5A19C257B100F687A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F82EDF5D19C257B100F687A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F82EDF5F19C257B100F687A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F82EDF6219C257B100F687A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F82EDF6819C257B200F687A8 /* GestosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82EDF6D19C257B200F687A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82EDF6E19C257B200F687A8 /* GestosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestosTests.m; sourceTree = "<group>"; };
+		F82EDF7819C257F900F687A8 /* chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chomp.wav; sourceTree = "<group>"; };
+		F82EDF7919C257F900F687A8 /* hehehe1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hehehe1.wav; sourceTree = "<group>"; };
+		F82EDF7A19C257F900F687A8 /* monkey_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey_1.png; sourceTree = "<group>"; };
+		F82EDF7B19C257F900F687A8 /* object_bananabunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_bananabunch.png; sourceTree = "<group>"; };
+		F82EDF8019C2591800F687A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F82EDF4C19C257B100F687A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDF8119C2591800F687A8 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDF6519C257B200F687A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82EDF4619C257B100F687A8 = {
+			isa = PBXGroup;
+			children = (
+				F82EDF8019C2591800F687A8 /* AVFoundation.framework */,
+				F82EDF7819C257F900F687A8 /* chomp.wav */,
+				F82EDF7919C257F900F687A8 /* hehehe1.wav */,
+				F82EDF7A19C257F900F687A8 /* monkey_1.png */,
+				F82EDF7B19C257F900F687A8 /* object_bananabunch.png */,
+				F82EDF5119C257B100F687A8 /* Gestos */,
+				F82EDF6B19C257B200F687A8 /* GestosTests */,
+				F82EDF5019C257B100F687A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82EDF5019C257B100F687A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDF4F19C257B100F687A8 /* Gestos.app */,
+				F82EDF6819C257B200F687A8 /* GestosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82EDF5119C257B100F687A8 /* Gestos */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDF5619C257B100F687A8 /* AppDelegate.h */,
+				F82EDF5719C257B100F687A8 /* AppDelegate.m */,
+				F82EDF5919C257B100F687A8 /* ViewController.h */,
+				F82EDF5A19C257B100F687A8 /* ViewController.m */,
+				F82EDF5C19C257B100F687A8 /* Main.storyboard */,
+				F82EDF5F19C257B100F687A8 /* Images.xcassets */,
+				F82EDF6119C257B100F687A8 /* LaunchScreen.xib */,
+				F82EDF5219C257B100F687A8 /* Supporting Files */,
+			);
+			path = Gestos;
+			sourceTree = "<group>";
+		};
+		F82EDF5219C257B100F687A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDF5319C257B100F687A8 /* Info.plist */,
+				F82EDF5419C257B100F687A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F82EDF6B19C257B200F687A8 /* GestosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDF6E19C257B200F687A8 /* GestosTests.m */,
+				F82EDF6C19C257B200F687A8 /* Supporting Files */,
+			);
+			path = GestosTests;
+			sourceTree = "<group>";
+		};
+		F82EDF6C19C257B200F687A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDF6D19C257B200F687A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F82EDF4E19C257B100F687A8 /* Gestos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82EDF7219C257B200F687A8 /* Build configuration list for PBXNativeTarget "Gestos" */;
+			buildPhases = (
+				F82EDF4B19C257B100F687A8 /* Sources */,
+				F82EDF4C19C257B100F687A8 /* Frameworks */,
+				F82EDF4D19C257B100F687A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gestos;
+			productName = Gestos;
+			productReference = F82EDF4F19C257B100F687A8 /* Gestos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F82EDF6719C257B200F687A8 /* GestosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82EDF7519C257B200F687A8 /* Build configuration list for PBXNativeTarget "GestosTests" */;
+			buildPhases = (
+				F82EDF6419C257B200F687A8 /* Sources */,
+				F82EDF6519C257B200F687A8 /* Frameworks */,
+				F82EDF6619C257B200F687A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82EDF6A19C257B200F687A8 /* PBXTargetDependency */,
+			);
+			name = GestosTests;
+			productName = GestosTests;
+			productReference = F82EDF6819C257B200F687A8 /* GestosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F82EDF4719C257B100F687A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F82EDF4E19C257B100F687A8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F82EDF6719C257B200F687A8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F82EDF4E19C257B100F687A8;
+					};
+				};
+			};
+			buildConfigurationList = F82EDF4A19C257B100F687A8 /* Build configuration list for PBXProject "Gestos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F82EDF4619C257B100F687A8;
+			productRefGroup = F82EDF5019C257B100F687A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F82EDF4E19C257B100F687A8 /* Gestos */,
+				F82EDF6719C257B200F687A8 /* GestosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F82EDF4D19C257B100F687A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDF7C19C257F900F687A8 /* chomp.wav in Resources */,
+				F82EDF5E19C257B100F687A8 /* Main.storyboard in Resources */,
+				F82EDF6319C257B100F687A8 /* LaunchScreen.xib in Resources */,
+				F82EDF6019C257B100F687A8 /* Images.xcassets in Resources */,
+				F82EDF7E19C257F900F687A8 /* monkey_1.png in Resources */,
+				F82EDF7D19C257F900F687A8 /* hehehe1.wav in Resources */,
+				F82EDF7F19C257F900F687A8 /* object_bananabunch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDF6619C257B200F687A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82EDF4B19C257B100F687A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDF5B19C257B100F687A8 /* ViewController.m in Sources */,
+				F82EDF5819C257B100F687A8 /* AppDelegate.m in Sources */,
+				F82EDF5519C257B100F687A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDF6419C257B200F687A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDF6F19C257B200F687A8 /* GestosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F82EDF6A19C257B200F687A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82EDF4E19C257B100F687A8 /* Gestos */;
+			targetProxy = F82EDF6919C257B200F687A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F82EDF5C19C257B100F687A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82EDF5D19C257B100F687A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F82EDF6119C257B100F687A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82EDF6219C257B100F687A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F82EDF7019C257B200F687A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F82EDF7119C257B200F687A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F82EDF7319C257B200F687A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gestos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F82EDF7419C257B200F687A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gestos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F82EDF7619C257B200F687A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestos.app/Gestos";
+			};
+			name = Debug;
+		};
+		F82EDF7719C257B200F687A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestos.app/Gestos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82EDF4A19C257B100F687A8 /* Build configuration list for PBXProject "Gestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EDF7019C257B200F687A8 /* Debug */,
+				F82EDF7119C257B200F687A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82EDF7219C257B200F687A8 /* Build configuration list for PBXNativeTarget "Gestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EDF7319C257B200F687A8 /* Debug */,
+				F82EDF7419C257B200F687A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F82EDF7519C257B200F687A8 /* Build configuration list for PBXNativeTarget "GestosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EDF7619C257B200F687A8 /* Debug */,
+				F82EDF7719C257B200F687A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F82EDF4719C257B100F687A8 /* Project object */;
+}
