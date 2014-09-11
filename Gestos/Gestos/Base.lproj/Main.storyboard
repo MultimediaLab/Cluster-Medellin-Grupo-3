@@ -22,13 +22,35 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6PF-CS-ce6" appends="YES" id="TBl-RZ-wkY"/>
+                        </connections>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="mico" destination="MuY-G1-G3t" id="3HB-4x-0um"/>
+                        <outlet property="panGesture" destination="6PF-CS-ce6" id="G7f-jd-HWs"/>
+                        <outlet property="pinchGesture" destination="JRy-bO-62q" id="vPA-NP-GxD"/>
+                        <outlet property="rotationGesture" destination="4Vy-j9-Vkj" id="JWH-lz-NG0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="6PF-CS-ce6">
+                    <connections>
+                        <action selector="handlePan:" destination="vXZ-lx-hvc" id="Fo6-Ce-e1J"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="JRy-bO-62q">
+                    <connections>
+                        <action selector="handlePinch:" destination="vXZ-lx-hvc" id="ZF1-Pv-A5u"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="4Vy-j9-Vkj">
+                    <connections>
+                        <action selector="handleRotation:" destination="vXZ-lx-hvc" id="LvR-8r-dYz"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
         </scene>
     </scenes>

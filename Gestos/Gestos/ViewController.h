@@ -13,6 +13,14 @@
 
 
 @property (strong, nonatomic) IBOutlet UIImageView *mico;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *panGesture;
+@property (strong, nonatomic) IBOutlet UIPinchGestureRecognizer *pinchGesture;
+@property (strong, nonatomic) IBOutlet UIRotationGestureRecognizer *rotationGesture;
+
+
+- (IBAction)handlePan:(UIPanGestureRecognizer *)sender;
+- (IBAction)handlePinch:(UIPinchGestureRecognizer *)sender;
+- (IBAction)handleRotation:(UIRotationGestureRecognizer *)sender;
 
 @property AVAudioPlayer * jeje;
 @property AVAudioPlayer * mordisco;
